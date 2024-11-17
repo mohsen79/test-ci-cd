@@ -31,8 +31,8 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Make script executable
-        run: chmod +x ./myscript.sh
+      # - name: Make script executable
+      #   run: chmod +x ./myscript.sh
 
-      - name: Run myscript.sh
-        run: ./myscript.sh
+      # - name: Run myscript.sh
+      #   run: ./myscript.sh
