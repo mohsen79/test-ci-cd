@@ -36,3 +36,10 @@ jobs:
 
       # - name: Run myscript.sh
       #   run: ./myscript.sh
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: react-app-build
+          path: build/
+          retention-days: 10
